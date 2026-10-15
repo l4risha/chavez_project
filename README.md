@@ -1,17 +1,20 @@
-# chavez_project
+# ParkKeys
 
-A new Flutter project.
+## Summary
+ParkKeys is a web system for community transportation that aims to manage queues and predict passenger demand. This first checkpoint contains the Flutter Web starter project with Home and Login placeholder screens.
 
-## Getting Started
+## Current stack
+- Implemented: Flutter Web / Dart, Git + GitHub
+- Planned: REST API backend and PostgreSQL database (not yet implemented)
 
-This project is a starting point for a Flutter application.
+## Run locally
+git clone https://github.com/l4risha/chavez_project.git
+cd chavez_project
+flutter pub get
+flutter run -d chrome
 
-A few resources to get you started if this is your first Flutter project:
+## Project structure
+lib/main.dart (entry point), lib/app.dart (MaterialApp and routes), lib/screens/ (Home, Login), lib/widgets/ (reusable UI), lib/services/, lib/models/, lib/routes/, lib/constants/
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## First checkpoint
+Date: October 15, 2026  |  Commit: 44020a3
